@@ -1,0 +1,816 @@
+{
+  "Version": "20230300",
+  "Thumbnail": {
+    "ProjectThumbnail": "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"
+  },
+  "TerrainBase": {
+    "Seed": 0,
+    "IsStandardVersion": true,
+    "TerrainScale": {
+      "X": 2048,
+      "Y": 2048
+    },
+    "TerrainWidth": 2048,
+    "TerrainHeight": 2048,
+    "StandardTerrainSize": "Res_2048",
+    "Precision": "Meter_1",
+    "SeamlessX": false,
+    "SeamlessXBlendSize": 1.0,
+    "SeamlessOperationX": "Average",
+    "SeamlessZ": false,
+    "SeamlessZBlendSize": 1.0,
+    "SeamlessOperationZ": "Average",
+    "HighDetailAreaMode": "None",
+    "HighDetailCameraScale": {
+      "X": 1.0,
+      "Y": 1.0
+    },
+    "HighDetailPosition": {
+      "X": 512.0,
+      "Y": 512.0
+    },
+    "HighDetailScale": {
+      "X": 1024.0,
+      "Y": 1024.0
+    },
+    "HighDetailAreaObject": {
+      "Area": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Width": 1024.0,
+        "Height": 1024.0
+      },
+      "Position": {
+        "X": 512.0,
+        "Y": 512.0
+      },
+      "Scale": {
+        "X": 1024.0,
+        "Y": 1024.0
+      },
+      "Rotation": 0.0,
+      "Blending": 1.0,
+      "BlendSize": 0.0,
+      "BlendRoundness": 0.0,
+      "ShowRotation": true,
+      "RotationEnabled": false,
+      "XYScalingEnabled": true,
+      "RelativeEditing": false,
+      "EditingEnabled": false
+    },
+    "HighDetailArea": {
+      "X": 512.0,
+      "Y": 512.0,
+      "Width": 1024.0,
+      "Height": 1024.0
+    },
+    "PreviewPadding": 0,
+    "TestPadding": 0,
+    "Symmetry": false,
+    "StepCount": 10,
+    "PreviewEnabled": false
+  },
+  "Scene": {
+    "SunAngleHorizontal": 0.41,
+    "SunAngleVertical": 0.15,
+    "SunSize": 0.07,
+    "ShadowSoftness": 0.1,
+    "SunStrength": 1.0,
+    "SunDirection": {
+      "X": -0.82099915,
+      "Y": 0.23344539,
+      "Z": -0.5210218
+    },
+    "SkyStrength": 1.0,
+    "MaxLightBounces": 5,
+    "ShowBiomes": false,
+    "ProgressiveSpeed": 0.0,
+    "PixelThreshold": 0.0,
+    "TerrainColor": "506E78FF",
+    "DarkColor": "000000FF",
+    "BackgroundColor": "080808FF",
+    "GridColor": "4747471F",
+    "ReferenceObjectEnabled": false,
+    "ReferenceObjectScale": 1.8,
+    "ReferenceObjectPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "FieldOfView": 90.0,
+    "DofEnabled": false,
+    "FocalDistance": 1000.0,
+    "ApertureRadius": 4.0,
+    "Exposure": 0.25,
+    "Vignette": 0.0,
+    "Brightness": 1.0,
+    "Contrast": 1.0,
+    "Saturation": 1.0,
+    "BloomStart": 0.0,
+    "BloomStrength": 0.3,
+    "BloomSamples": 50.0,
+    "Bloom": false,
+    "CloudsEnabled": false,
+    "CloudColor": "FFFFFFFF",
+    "CloudQuality": 1.0,
+    "CloudScattering": 0.65,
+    "CloudCoverage": 0.88,
+    "CloudDensity": 2.0,
+    "CloudScale": 0.22,
+    "CloudDetailScale": 0.71,
+    "CloudHeight": 0.16,
+    "CloudHeightOffset": 0.27,
+    "CloudBorder": 0.0,
+    "CloudAtmosphere": 0.0,
+    "CloudAtmosphereHeight": 0.63,
+    "CloudSkylightFactor": 0.0,
+    "CloudWeatherScale": 1.0,
+    "CloudOffsetX": 0.0,
+    "CloudOffsetZ": 0.0,
+    "WaterEnabled": false,
+    "WaterHeight": 0.1,
+    "WaterOffset": 0.08,
+    "WaterClarity": 0.65,
+    "WaterColor": "008B93FF",
+    "WaterFoam": true,
+    "WaterFoamRange": {
+      "Min": 0.0,
+      "Max": 0.15,
+      "Size": 0.15
+    },
+    "AtmosphereStrength": 1.0,
+    "AtmosphereScale": 1.0,
+    "AtmosphereHeight": 1.0,
+    "ClampAtmosphereColor": false,
+    "SoilHeight": 0.02,
+    "SoilColor": "FFFFFFFF",
+    "GroundPlate": true,
+    "GroundPlateOffset": 0.0,
+    "GroundPlateColor": "172639FF",
+    "MipBias": 0.0,
+    "DisplacementEnabled": false,
+    "MaxDisplacementDistance": 2.0,
+    "DisplacementQuality": 0.5,
+    "MaxDisplacementBounces": 2,
+    "TextureDisplacementBlending": 0.0
+  },
+  "BiomeSettings": {
+    "HandleGenerator": {
+      "HandleIndex": 74
+    },
+    "Biomes": {
+      "Items": [
+        {
+          "$type": "Biome",
+          "Name": "Global",
+          "Handle": 4,
+          "Enabled": true,
+          "Filters": {
+            "Items": [
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterParticleErosionRivers",
+                    "Seed": 0,
+                    "RainStrength": 0.04,
+                    "RainLevels": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,100.0,64.0,32.0,16.0,8.0,4.0,1.0,0.5,0.25,0.125,0.0625,0.03125,0.015625,0.0078125,0.00390625,0.00390625]
+                    },
+                    "StepSize": 1.0,
+                    "Inertia": 0.1,
+                    "RiverForming": 0.20958084,
+                    "SedimentLoss": 0.0,
+                    "Smooth": false,
+                    "ErosionStrength": 512.0,
+                    "InitialWater": 2.73,
+                    "MaxLength": 128.0,
+                    "TransportRate": 0.1,
+                    "ErosionMultiplier": 3.5928144,
+                    "DepositionMultiplier": 1.0,
+                    "Evaporation": 0.0,
+                    "WaterEliminationThreshold": 0.001,
+                    "Delta": 0.5,
+                    "FlowRotation": 0.0,
+                    "RandomRotation": 0.0,
+                    "WindDir": 0.0,
+                    "WindStrength": 0.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 47.877502,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 34,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 35,
+                "Name": "Erosion - Wide Flows"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterBorderBlend",
+                    "HeightOffset": 1.0,
+                    "BlendRange": {
+                      "Min": 0.0,
+                      "Max": 0.9999888,
+                      "Size": 0.9999888
+                    },
+                    "BlendDistance": 1000.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 10.897968,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 20,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 21,
+                "Name": "General - Border Blend"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterCanyon",
+                    "Sharpness": 4,
+                    "SharpnessStrength": 10.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 20.0,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 30,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 31,
+                "Name": "Arid - Rocky Sharp"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterFlatten",
+                    "FlattenAnchor": 0.5,
+                    "FlattenStrength": 0.4040815,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 100.0,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 24,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 25,
+                "Name": "General - Flatten"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterErosionFlow",
+                    "Iterations": 10,
+                    "Viscosity": 1.0,
+                    "Evaporation": 0.0,
+                    "VelocityThreshold": 0.27,
+                    "RainStrength": 0.40450463,
+                    "Smoothness": 1.0,
+                    "FlowCutoff": 0.69,
+                    "FlowSmoothness": 0.1,
+                    "Sign": 0.1,
+                    "SampleSize": 2.0,
+                    "Depth": 0.5013513,
+                    "Erosion": 1.0,
+                    "Sediment": 1.0,
+                    "ErosionLengthFactor": 1.3,
+                    "SedimentLengthFactor": 1.9995496,
+                    "StartRes": 12.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,80.0,62.0,52.0,48.0,46.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 62.694168,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 16,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 17,
+                "Name": "Erosion - Ridged Flows"
+              }
+            ],
+            "Handle": 5,
+            "Enabled": true,
+            "Name": "Filters"
+          },
+          "TextureProperties": {
+            "Items": [
+              {
+                "$type": "TextureProperties",
+                "Settings": {
+                  "$type": "ColorMaterial",
+                  "TypeString": "Color",
+                  "Color": "FFFFFFFF",
+                  "Metalness": 0.0,
+                  "Roughness": 1.0,
+                  "UseSatelliteImage": true,
+                  "MaxWorkingTextures": 0
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 10,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Enabled": true,
+                "Handle": 9,
+                "Name": "Color"
+              }
+            ],
+            "Handle": 6,
+            "Enabled": true,
+            "Name": "Materials"
+          },
+          "Color": "2A00FFFF",
+          "Seed": 0,
+          "Cutoff": {
+            "Min": 0.0,
+            "Max": 0.0,
+            "Size": 0.0
+          },
+          "GeneralStrength": 0.4,
+          "OffsetX": 0.0,
+          "OffsetZ": 0.0,
+          "LevelStep": {
+            "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+            "Levels": [0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+          },
+          "BaseShape": {
+            "$type": "BaseShapeClassic",
+            "OffsetX": 0.0,
+            "OffsetZ": 0.0,
+            "Seed": 0,
+            "Strength": 1.0,
+            "StartLevel": 2,
+            "NoiseHeight": {
+              "Min": 0.0,
+              "Max": 250.0,
+              "Size": 250.0
+            }
+          },
+          "BiomeIndex": 0
+        }
+      ],
+      "Handle": 0,
+      "Enabled": true,
+      "Name": "Biomes"
+    },
+    "BiomeLayers": {
+      "Area": {
+        "$type": "WorldCreator3.Settings.ContainerElementArea`1+MoveableFolderArea[[WorldCreator3.Generating.BiomeLayer, WorldCreator3.Core]]",
+        "Area": {
+          "X": -3.4028235E+38,
+          "Y": -3.4028235E+38,
+          "Width": 0.0,
+          "Height": 0.0
+        },
+        "RotationEnabled": true,
+        "XYScalingEnabled": false,
+        "RelativeEditing": false,
+        "EditingEnabled": true
+      },
+      "Items": [],
+      "Handle": 1,
+      "Enabled": true,
+      "Name": "Biome Layers"
+    },
+    "TerrainLayers": {
+      "Area": {
+        "$type": "WorldCreator3.Settings.ContainerElementArea`1+MoveableFolderArea[[WorldCreator3.Settings.BaseTerrainLayer, WorldCreator3.Core]]",
+        "Area": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Width": 2048.0,
+          "Height": 2048.0
+        },
+        "RotationEnabled": true,
+        "XYScalingEnabled": false,
+        "RelativeEditing": false,
+        "EditingEnabled": true
+      },
+      "Items": [
+        {
+          "$type": "TerrainLayerSculpt",
+          "Resolution": "Resolution_32",
+          "Data": "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",
+          "Enabled": true,
+          "Created": false,
+          "Name": "Sculpt",
+          "RotateImage": false,
+          "UsesColorMap": false,
+          "UsesHeightMap": true,
+          "Handle": 11,
+          "Operation": "Overwrite",
+          "InterpolationMode": "CatmullRom",
+          "HeightOffset": 0.0,
+          "HeightScale": 1.0,
+          "HeightBlending": 1.0,
+          "LevelStep": 5,
+          "Area": {
+            "$type": "TerrainLayerArea",
+            "Area": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 2048.0,
+              "Height": 2048.0
+            },
+            "Position": {
+              "X": 1024.0,
+              "Y": 1024.0
+            },
+            "Scale": {
+              "X": 2048.0,
+              "Y": 2048.0
+            },
+            "Rotation": 0.0,
+            "Blending": 1.0,
+            "BlendSize": 0.0,
+            "BlendRoundness": 0.0,
+            "ShowRotation": true,
+            "RotationEnabled": true,
+            "XYScalingEnabled": false,
+            "RelativeEditing": false,
+            "EditingEnabled": true
+          }
+        }
+      ],
+      "Handle": 2,
+      "Enabled": true,
+      "Name": "Shape Layers"
+    },
+    "MaskLayers": {
+      "Area": {
+        "$type": "WorldCreator3.Settings.ContainerElementArea`1+MoveableFolderArea[[WorldCreator3.Generating.MaskLayer, WorldCreator3.Core]]",
+        "Area": {
+          "X": -3.4028235E+38,
+          "Y": -3.4028235E+38,
+          "Width": 0.0,
+          "Height": 0.0
+        },
+        "RotationEnabled": true,
+        "XYScalingEnabled": false,
+        "RelativeEditing": false,
+        "EditingEnabled": true
+      },
+      "Items": [],
+      "Handle": 3,
+      "Enabled": true,
+      "Name": "Mask Layers"
+    }
+  },
+  "Seeds": [],
+  "Export": {
+    "ProjectPresets": {
+      "Items": [
+        {
+          "$type": "ExportPreset",
+          "FlipX": false,
+          "FlipY": false,
+          "UseProjectPrecision": true,
+          "Precision": "Meter_1",
+          "Position": {
+            "X": 1024.0,
+            "Y": 1024.0
+          },
+          "Scale": {
+            "X": 2048.0,
+            "Y": 2048.0
+          },
+          "Area": {
+            "$type": "TerrainLayerArea",
+            "Area": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 2048.0,
+              "Height": 2048.0
+            },
+            "Position": {
+              "X": 1024.0,
+              "Y": 1024.0
+            },
+            "Scale": {
+              "X": 2048.0,
+              "Y": 2048.0
+            },
+            "Rotation": 0.0,
+            "Blending": 1.0,
+            "BlendSize": 0.0,
+            "BlendRoundness": 0.0,
+            "ShowRotation": true,
+            "RotationEnabled": false,
+            "XYScalingEnabled": false,
+            "RelativeEditing": false,
+            "EditingEnabled": false
+          },
+          "Items": [
+            {
+              "$type": "MeshExportPipeline",
+              "Triangulate": false,
+              "Normalize": false,
+              "IncludeTexcoords": true,
+              "IncludeNormals": true,
+              "IncludeTangents": true,
+              "IncludeColors": false,
+              "Name": "Mesh",
+              "ExportItemCount": 1,
+              "UsedDataTypes": "Height, Splat, Base",
+              "WritesMesh": true,
+              "ExportInfos": [
+                {
+                  "$type": "ExportInfoCollada",
+                  "FileFormat": "Collada",
+                  "ExportID": "collada",
+                  "Extension": "dae"
+                },
+                {
+                  "$type": "ExportInfoFbx",
+                  "Binary": true,
+                  "FileFormat": "Fbx",
+                  "ExportID": "fbx",
+                  "Extension": "fbx"
+                },
+                {
+                  "$type": "ExportInfoGltf2",
+                  "FileFormat": "Gltf2",
+                  "ExportID": "gltf2",
+                  "Extension": "gltf"
+                },
+                {
+                  "$type": "ExportInfoObj",
+                  "FileFormat": "Obj",
+                  "Extension": "obj",
+                  "ExportID": "objnomtl"
+                },
+                {
+                  "$type": "ExportInfoStl",
+                  "FileFormat": "Obj",
+                  "ExportID": "stl",
+                  "Extension": "stl"
+                }
+              ],
+              "Format": {
+                "$type": "ExportInfoObj",
+                "FileFormat": "Obj",
+                "Extension": "obj",
+                "ExportID": "objnomtl"
+              },
+              "NamingConvention": "#PROJECT_#TYPE_#X_#Y.#EXT",
+              "SplitValue": 8192,
+              "TileOrder": "TopToBottom",
+              "PartialTileBehaviour": "Clamp",
+              "Resample": true,
+              "ResampleValue": 500,
+              "FlipX": false,
+              "FlipY": false,
+              "SingleChannel": false,
+              "UseAlphaChannel": false,
+              "Transpose": false,
+              "Handle": 0,
+              "Enabled": true
+            },
+            {
+              "$type": "HeightmapExportPipeline",
+              "Name": "Height Map",
+              "AutoNormalization": true,
+              "MinHeight": -300.0,
+              "MaxHeight": 500.0,
+              "SingleChannel": false,
+              "GameEngine": "Unreal",
+              "GameEngineScaling": 0.0,
+              "ExportItemCount": 1,
+              "WritesMesh": false,
+              "UsedDataTypes": "Height",
+              "ExportInfos": [
+                {
+                  "$type": "ExportInfoBmp",
+                  "Extension": "bmp"
+                },
+                {
+                  "$type": "ExportInfoExr",
+                  "BitDepth": "Float32",
+                  "Normalize": true,
+                  "Extension": "exr"
+                },
+                {
+                  "$type": "ExportInfoJpeg",
+                  "Quality": 95,
+                  "Extension": "jpg"
+                },
+                {
+                  "$type": "ExportInfoPng",
+                  "BitDepth": "BitDepth8",
+                  "Is16Bit": false,
+                  "CompressionLevel": "Default",
+                  "Extension": "png"
+                },
+                {
+                  "$type": "ExportInfoRaw",
+                  "BitDepth": "Int16",
+                  "Normalize": true,
+                  "ByteOrder": "BigEndian",
+                  "Channels": "All",
+                  "Interleaved": true,
+                  "Extension": "raw"
+                },
+                {
+                  "$type": "ExportInfoTarga",
+                  "Compression": false,
+                  "Extension": "tga"
+                },
+                {
+                  "$type": "ExportInfoTiff",
+                  "BitDepth": "Int8",
+                  "Normalize": false,
+                  "Compression": true,
+                  "Extension": "tif"
+                }
+              ],
+              "Format": {
+                "$type": "ExportInfoRaw",
+                "BitDepth": "Int16",
+                "Normalize": true,
+                "ByteOrder": "LittleEndian",
+                "Channels": "R",
+                "Interleaved": false,
+                "Extension": "raw"
+              },
+              "NamingConvention": "#PROJECT_#TYPE_#WIDTHx#HEIGHT_#X_#Y.#EXT",
+              "SplitValue": 8192,
+              "TileOrder": "TopToBottom",
+              "PartialTileBehaviour": "Clamp",
+              "IncludeBorderPixel": false,
+              "Resample": false,
+              "ResampleValue": 1024,
+              "FlipX": false,
+              "FlipY": false,
+              "Transpose": false,
+              "WriterCount": 1,
+              "Handle": 0,
+              "Enabled": true
+            }
+          ],
+          "Handle": 54,
+          "Enabled": true,
+          "Name": "Export Preset"
+        }
+      ],
+      "Handle": 7,
+      "Enabled": true,
+      "Name": "Folder"
+    },
+    "LastExportFolder": "C:\\Users\\waiya\\Documents/World Creator/Export/",
+    "Area": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 1.0,
+      "Height": 1.0
+    }
+  },
+  "ProjectType": "WorkingFileAbsolutePaths",
+  "CameraPosition": {
+    "X": 1.5598607,
+    "Y": -1.7251557,
+    "Z": -0.91807586
+  },
+  "CameraDirection": {
+    "X": -0.23367032,
+    "Y": 0.77727395,
+    "Z": 0.5841604
+  },
+  "SavedCameraPositions": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}
