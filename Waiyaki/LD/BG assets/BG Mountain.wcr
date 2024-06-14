@@ -1,0 +1,729 @@
+{
+  "Version": "20230300",
+  "Thumbnail": {
+    "ProjectThumbnail": "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"
+  },
+  "TerrainBase": {
+    "Seed": 1151502507,
+    "IsStandardVersion": true,
+    "TerrainScale": {
+      "X": 1024,
+      "Y": 1024
+    },
+    "TerrainWidth": 1024,
+    "TerrainHeight": 1024,
+    "StandardTerrainSize": "Res_1024",
+    "Precision": "Meter_1",
+    "SeamlessX": false,
+    "SeamlessXBlendSize": 1.0,
+    "SeamlessOperationX": "Average",
+    "SeamlessZ": false,
+    "SeamlessZBlendSize": 1.0,
+    "SeamlessOperationZ": "Average",
+    "HighDetailAreaMode": "None",
+    "HighDetailCameraScale": {
+      "X": 1.0,
+      "Y": 1.0
+    },
+    "HighDetailPosition": {
+      "X": 512.0,
+      "Y": 512.0
+    },
+    "HighDetailScale": {
+      "X": 1024.0,
+      "Y": 1024.0
+    },
+    "HighDetailAreaObject": {
+      "Area": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Width": 1024.0,
+        "Height": 1024.0
+      },
+      "Position": {
+        "X": 512.0,
+        "Y": 512.0
+      },
+      "Scale": {
+        "X": 1024.0,
+        "Y": 1024.0
+      },
+      "Rotation": 0.0,
+      "Blending": 1.0,
+      "BlendSize": 0.0,
+      "BlendRoundness": 0.0,
+      "ShowRotation": true,
+      "RotationEnabled": false,
+      "XYScalingEnabled": true,
+      "RelativeEditing": false,
+      "EditingEnabled": false
+    },
+    "HighDetailArea": {
+      "X": 512.0,
+      "Y": 512.0,
+      "Width": 1024.0,
+      "Height": 1024.0
+    },
+    "PreviewPadding": 0,
+    "TestPadding": 0,
+    "Symmetry": false,
+    "StepCount": 10,
+    "PreviewEnabled": false
+  },
+  "Scene": {
+    "SunAngleHorizontal": 0.41,
+    "SunAngleVertical": 0.15,
+    "SunSize": 0.07,
+    "ShadowSoftness": 0.1,
+    "SunStrength": 1.0,
+    "SunDirection": {
+      "X": -0.82099915,
+      "Y": 0.23344539,
+      "Z": -0.5210218
+    },
+    "SkyStrength": 1.0,
+    "MaxLightBounces": 5,
+    "ShowBiomes": false,
+    "ProgressiveSpeed": 0.0,
+    "PixelThreshold": 0.0,
+    "TerrainColor": "506E78FF",
+    "DarkColor": "000000FF",
+    "BackgroundColor": "080808FF",
+    "GridColor": "4747471F",
+    "ReferenceObjectEnabled": false,
+    "ReferenceObjectScale": 1.8,
+    "ReferenceObjectPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "FieldOfView": 90.0,
+    "DofEnabled": false,
+    "FocalDistance": 1000.0,
+    "ApertureRadius": 4.0,
+    "Exposure": 0.25,
+    "Vignette": 0.0,
+    "Brightness": 1.0,
+    "Contrast": 1.0,
+    "Saturation": 1.0,
+    "BloomStart": 0.0,
+    "BloomStrength": 0.3,
+    "BloomSamples": 50.0,
+    "Bloom": false,
+    "CloudsEnabled": false,
+    "CloudColor": "FFFFFFFF",
+    "CloudQuality": 1.0,
+    "CloudScattering": 0.65,
+    "CloudCoverage": 0.88,
+    "CloudDensity": 2.0,
+    "CloudScale": 0.22,
+    "CloudDetailScale": 0.71,
+    "CloudHeight": 0.16,
+    "CloudHeightOffset": 0.27,
+    "CloudBorder": 0.0,
+    "CloudAtmosphere": 0.0,
+    "CloudAtmosphereHeight": 0.63,
+    "CloudSkylightFactor": 0.0,
+    "CloudWeatherScale": 1.0,
+    "CloudOffsetX": 0.0,
+    "CloudOffsetZ": 0.0,
+    "WaterEnabled": false,
+    "WaterHeight": 0.1,
+    "WaterOffset": 0.08,
+    "WaterClarity": 0.65,
+    "WaterColor": "008B93FF",
+    "WaterFoam": true,
+    "WaterFoamRange": {
+      "Min": 0.0,
+      "Max": 0.15,
+      "Size": 0.15
+    },
+    "AtmosphereStrength": 1.0,
+    "AtmosphereScale": 1.0,
+    "AtmosphereHeight": 1.0,
+    "ClampAtmosphereColor": false,
+    "SoilHeight": 0.02,
+    "SoilColor": "FFFFFFFF",
+    "GroundPlate": true,
+    "GroundPlateOffset": 0.0,
+    "GroundPlateColor": "172639FF",
+    "MipBias": 0.0,
+    "DisplacementEnabled": false,
+    "MaxDisplacementDistance": 2.0,
+    "DisplacementQuality": 0.5,
+    "MaxDisplacementBounces": 2,
+    "TextureDisplacementBlending": 0.0
+  },
+  "BiomeSettings": {
+    "HandleGenerator": {
+      "HandleIndex": 92
+    },
+    "Biomes": {
+      "Items": [
+        {
+          "$type": "Biome",
+          "Name": "Global",
+          "Handle": 4,
+          "Enabled": true,
+          "Filters": {
+            "Items": [
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterParticleErosionSediment",
+                    "Seed": 0,
+                    "RainStrength": 0.04,
+                    "RainLevels": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,100.0,64.0,32.0,16.0,8.0,4.0,1.0,0.5,0.25,0.125,0.0625,0.03125,0.015625,0.0078125,0.00390625,0.00390625]
+                    },
+                    "Multiplier": 0.0,
+                    "TestValue": 0.0,
+                    "StepSize": 1.0,
+                    "Inertia": 0.1,
+                    "RiverForming": 0.20958084,
+                    "SedimentFlushSteps": 0,
+                    "SedimentLoss": 0.0,
+                    "Smooth": false,
+                    "ErosionStrength": 512.0,
+                    "InitialWater": 2.73,
+                    "MaxLength": 512.0,
+                    "TransportRate": 0.1,
+                    "ErosionMultiplier": 3.5928144,
+                    "DepositionMultiplier": 1.0,
+                    "Evaporation": 0.0,
+                    "WaterEliminationThreshold": 0.001,
+                    "Delta": 0.5,
+                    "FlowRotation": 0.0,
+                    "RandomRotation": 0.0,
+                    "WindDir": -38.839996,
+                    "WindStrength": 0.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 79.64,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": false
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 74,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 75,
+                "Name": "Experimental - Particle Sediment"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterCanyon",
+                    "Sharpness": 4,
+                    "SharpnessStrength": 10.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 20.0,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 66,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 67,
+                "Name": "Arid - Rocky Sharp"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterCrateredCliffs",
+                    "FineStrength": 0.0,
+                    "RoughStrength": 100.0,
+                    "MinCount": 0.0,
+                    "MaxCount": 9.0,
+                    "MinAngle": 60.0,
+                    "MaxAngle": 90.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 20.0,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 46,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 47,
+                "Name": "Arid - Rocky Cliffs"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterErosionFlow",
+                    "Iterations": 10,
+                    "Viscosity": 1.0,
+                    "Evaporation": 0.0,
+                    "VelocityThreshold": 0.27,
+                    "RainStrength": 0.40450463,
+                    "Smoothness": 1.0,
+                    "FlowCutoff": 0.69,
+                    "FlowSmoothness": 0.1,
+                    "Sign": 0.1,
+                    "SampleSize": 2.0,
+                    "Depth": 0.5013513,
+                    "Erosion": 1.0,
+                    "Sediment": 1.0,
+                    "ErosionLengthFactor": 1.3,
+                    "SedimentLengthFactor": 1.9995496,
+                    "StartRes": 12.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,80.0,62.0,52.0,48.0,46.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 50.0,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 38,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 39,
+                "Name": "Erosion - Ridged Flows"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterMountains",
+                    "Invert": true,
+                    "LayerStrength": 4.0,
+                    "MinCount": 2.0,
+                    "MaxCount": 4.0,
+                    "MinAngle": 0.0,
+                    "MaxAngle": 90.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 20.0,
+                    "OperationCompare": "All"
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 30,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 31,
+                "Name": "Arid - Rocky Wide"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterFlatten",
+                    "FlattenAnchor": 0.5,
+                    "FlattenStrength": 0.18571055,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 58.775623,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 34,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 35,
+                "Name": "General - Flatten"
+              },
+              {
+                "$type": "FilterProperties",
+                "Settings": {
+                  "Filter": {
+                    "$type": "FilterParticleErosionRivers",
+                    "Seed": 0,
+                    "RainStrength": 0.04,
+                    "RainLevels": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,100.0,64.0,32.0,16.0,8.0,4.0,1.0,0.5,0.25,0.125,0.0625,0.03125,0.015625,0.0078125,0.00390625,0.00390625]
+                    },
+                    "StepSize": 1.0,
+                    "Inertia": 0.1,
+                    "RiverForming": 0.20958084,
+                    "SedimentLoss": 0.0,
+                    "Smooth": false,
+                    "ErosionStrength": 512.0,
+                    "InitialWater": 2.73,
+                    "MaxLength": 128.0,
+                    "TransportRate": 0.1,
+                    "ErosionMultiplier": 3.5928144,
+                    "DepositionMultiplier": 1.0,
+                    "Evaporation": 0.0,
+                    "WaterEliminationThreshold": 0.001,
+                    "Delta": 0.5,
+                    "FlowRotation": 0.0,
+                    "RandomRotation": 0.0,
+                    "WindDir": 0.0,
+                    "WindStrength": 0.0,
+                    "LevelStep": {
+                      "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+                      "Levels": [0.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+                    },
+                    "SedimentModification": 0.0,
+                    "RockModification": 100.0,
+                    "GeneralStrength": 50.0,
+                    "OperationCompare": "All",
+                    "Invert": false
+                  },
+                  "Enabled": true
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 26,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Handle": 27,
+                "Name": "Erosion - Wide Flows"
+              }
+            ],
+            "Handle": 5,
+            "Enabled": true,
+            "Name": "Filters"
+          },
+          "TextureProperties": {
+            "Items": [
+              {
+                "$type": "TextureProperties",
+                "Settings": {
+                  "$type": "ColorMaterial",
+                  "TypeString": "Color",
+                  "Color": "FFFFFFFF",
+                  "Metalness": 0.0,
+                  "Roughness": 1.0,
+                  "UseSatelliteImage": true,
+                  "MaxWorkingTextures": 0
+                },
+                "Distribution": {
+                  "RootDistribution": {
+                    "$type": "biomedistribution",
+                    "internalList": [],
+                    "Value": 1.0,
+                    "Operation": "Multiply",
+                    "Enabled": true,
+                    "ClampResult": false,
+                    "Effects": {
+                      "Items": [],
+                      "Handle": 10,
+                      "Enabled": true,
+                      "Name": "Effects"
+                    },
+                    "BlendValue": 1.0
+                  }
+                },
+                "Enabled": true,
+                "Handle": 9,
+                "Name": "Color"
+              }
+            ],
+            "Handle": 6,
+            "Enabled": true,
+            "Name": "Materials"
+          },
+          "Color": "FF006AFF",
+          "Seed": 0,
+          "Cutoff": {
+            "Min": 0.0,
+            "Max": 0.0,
+            "Size": 0.0
+          },
+          "GeneralStrength": 0.42653123,
+          "OffsetX": 0.0,
+          "OffsetZ": 0.0,
+          "LevelStep": {
+            "Active": [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],
+            "Levels": [0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0]
+          },
+          "BaseShape": {
+            "$type": "BaseShapeClassic",
+            "OffsetX": 0.0,
+            "OffsetZ": 0.0,
+            "Seed": 0,
+            "Strength": 1.0,
+            "StartLevel": 2,
+            "NoiseHeight": {
+              "Min": 0.0,
+              "Max": 250.0,
+              "Size": 250.0
+            }
+          },
+          "BiomeIndex": 0
+        }
+      ],
+      "Handle": 0,
+      "Enabled": true,
+      "Name": "Biomes"
+    },
+    "BiomeLayers": {
+      "Area": {
+        "$type": "WorldCreator3.Settings.ContainerElementArea`1+MoveableFolderArea[[WorldCreator3.Generating.BiomeLayer, WorldCreator3.Core]]",
+        "Area": {
+          "X": -3.4028235E+38,
+          "Y": -3.4028235E+38,
+          "Width": 0.0,
+          "Height": 0.0
+        },
+        "RotationEnabled": true,
+        "XYScalingEnabled": false,
+        "RelativeEditing": false,
+        "EditingEnabled": true
+      },
+      "Items": [],
+      "Handle": 1,
+      "Enabled": true,
+      "Name": "Biome Layers"
+    },
+    "TerrainLayers": {
+      "Area": {
+        "$type": "WorldCreator3.Settings.ContainerElementArea`1+MoveableFolderArea[[WorldCreator3.Settings.BaseTerrainLayer, WorldCreator3.Core]]",
+        "Area": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Width": 1024.0,
+          "Height": 1024.0
+        },
+        "RotationEnabled": true,
+        "XYScalingEnabled": false,
+        "RelativeEditing": false,
+        "EditingEnabled": true
+      },
+      "Items": [
+        {
+          "$type": "TerrainLayerSculpt",
+          "Resolution": "Resolution_32",
+          "Data": "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",
+          "Enabled": true,
+          "Created": false,
+          "Name": "Sculpt",
+          "RotateImage": false,
+          "UsesColorMap": false,
+          "UsesHeightMap": true,
+          "Handle": 19,
+          "Operation": "Overwrite",
+          "InterpolationMode": "CatmullRom",
+          "HeightOffset": 0.0,
+          "HeightScale": 1.0,
+          "HeightBlending": 1.0,
+          "LevelStep": 5,
+          "Area": {
+            "$type": "TerrainLayerArea",
+            "Area": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 1024.0,
+              "Height": 1024.0
+            },
+            "Position": {
+              "X": 512.0,
+              "Y": 512.0
+            },
+            "Scale": {
+              "X": 1024.0,
+              "Y": 1024.0
+            },
+            "Rotation": 0.0,
+            "Blending": 1.0,
+            "BlendSize": 0.0,
+            "BlendRoundness": 0.0,
+            "ShowRotation": true,
+            "RotationEnabled": true,
+            "XYScalingEnabled": false,
+            "RelativeEditing": false,
+            "EditingEnabled": true
+          }
+        }
+      ],
+      "Handle": 2,
+      "Enabled": true,
+      "Name": "Shape Layers"
+    },
+    "MaskLayers": {
+      "Area": {
+        "$type": "WorldCreator3.Settings.ContainerElementArea`1+MoveableFolderArea[[WorldCreator3.Generating.MaskLayer, WorldCreator3.Core]]",
+        "Area": {
+          "X": -3.4028235E+38,
+          "Y": -3.4028235E+38,
+          "Width": 0.0,
+          "Height": 0.0
+        },
+        "RotationEnabled": true,
+        "XYScalingEnabled": false,
+        "RelativeEditing": false,
+        "EditingEnabled": true
+      },
+      "Items": [],
+      "Handle": 3,
+      "Enabled": true,
+      "Name": "Mask Layers"
+    }
+  },
+  "Seeds": [],
+  "Export": {
+    "ProjectPresets": {
+      "Items": [],
+      "Handle": 7,
+      "Enabled": true,
+      "Name": "Folder"
+    },
+    "LastExportFolder": "C:\\Users\\waiya\\Documents/World Creator/Export/",
+    "Area": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 1.0,
+      "Height": 1.0
+    }
+  },
+  "ProjectType": "WorkingFileAbsolutePaths",
+  "CameraPosition": {
+    "X": 0.6047411,
+    "Y": -0.9082646,
+    "Z": 1.7414949
+  },
+  "CameraDirection": {
+    "X": -0.004686794,
+    "Y": 0.5885572,
+    "Z": -0.808442
+  },
+  "SavedCameraPositions": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}
