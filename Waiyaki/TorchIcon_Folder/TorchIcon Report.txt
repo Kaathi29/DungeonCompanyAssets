@@ -1,0 +1,46 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: TorchIcon.ai
+Color Mode: RGB color
+Color Profile: none
+Ruler Units: pixels
+Artboard Dimensions: 1920 px x 1080 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+E:\Crunchy Bits\Projects\Dungeon Company\DC-UI_Graphics\TorchIcon\Links\LOGO-PNG.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 23810K, 2295 by 2656 pixels
+Dimensions: 550.8 by 637.44 points 
+Resolution: 300 by 300 pixels per inch
